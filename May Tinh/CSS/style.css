@@ -1,0 +1,120 @@
+/* //==================================Cac Class-id================================// */
+
+body {
+    font-family: Roboto;
+    background: black;
+}
+
+#may_tinh {
+    width: 320px;
+    height: 520px;
+    background-color: yellow;
+    top: 20px;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 5px;
+    border: 5px solid red;
+}
+
+.manHinh{
+    border:5px solid purple;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#ket_qua {
+    height: 120px;
+}
+
+#ket_qua_cu {
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: greenyellow;
+}
+
+#xuat_ket_qua {
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 30px;
+}
+
+/* //==================================Ban Phim================================// */
+
+#ban_phim {
+    height: 400px;
+}
+
+.he_thong,
+.con_so,
+.trong {
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.con_so,
+.trong {
+    background-color: #eaedef;
+}
+
+#ban_phim .trong{
+    background-color: orange;
+}
+
+.con_so {
+    background-color: gray;
+}
+
+.he_thong:active,
+.con_so:active {
+    font-size: 13px;
+}
+
+button:nth-child(1) {
+    font-size: 20px;
+    background-color: greenyellow;
+}
+
+button:nth-child(2) {
+    font-size: 20px;
+    background-color: greenyellow;
+}
+
+button:nth-child(3) {
+    font-size: 20px;
+    background-color: greenyellow;
+}
+
+button:nth-child(4) {
+    font-size: 20px;
+    background-color: red;
+}
+
+button:nth-child(8) {
+    font-size: 20px;
+    background-color: red;
+}
+
+button:nth-child(12) {
+    font-size: 20px;
+    background-color: red;
+}
+
+button:nth-child(16) {
+    font-size: 20px;
+    background-color: red;
+}
+
+button:nth-child(20) {
+    font-size: 20px;
+    background-color: royalblue;
+}
